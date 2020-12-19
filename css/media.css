@@ -16,7 +16,7 @@
 
 	/*banner start*/
 	.b_text{
-		margin: 30px 0;
+		margin: 50px 0;
 	}
 	.banner_logo {
 	    margin-bottom: 15px;
@@ -41,15 +41,26 @@
 	.py-4c{
 		padding: 10px 10px !important;
 	}
-
+	.social {
+	    padding: 40px 0;
+	}
 	/*tabs start*/
 	.c-padding{
-		padding: 30px 0;
+		padding: 60px 0;
 	}
 	.custom-tab-btn {
 	    font-size: 16px;
 	    width: 80px;
 	    height: 80px;
+	}
+	.common-h1 {
+	    font-size: 30px;
+	}
+	.single-item {
+	    margin-top: 50px;
+	}
+	.sicon-margin {
+	    margin-bottom: 20px;
 	}
 	.tab-1 {
 	    border-radius: 5px 0 0 5px !important;
@@ -64,11 +75,17 @@
 	    border-radius: 0 5px 5px 0 !important;
 	}
 	.three-tab{
-		margin: 0 0 10px;
+		margin: 0 28px 20px;
 	}
 	.pack-top{
-		margin-top: 30px;
-		margin-bottom: 30px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+	.big-text {
+	    font-size: 80px;
+	}
+	.userimg{
+		text-align: center;
 	}
 	/*sub list*/
 	.orange-outline {
@@ -86,13 +103,22 @@
 		width: 100%;
 	}
 	.test-middle{
-		margin: 0;
+		margin: 50px 0;
 	}
 
 	/*footer*/
 	.f-social-icon li i {
 	    margin-left: 10px;
-	    font-size: 30px;
+	    font-size: 24px;
+	}
+	.single-button {
+   		margin-top: 50px;
+	}
+	.h3 {
+	    font-size: 18px;
+	}
+	.tab-img {
+	    padding: 40px 0;
 	}
 
 }
@@ -117,6 +143,12 @@
 	/*social start*/
 	.social-icon{
 		width: 80%;
+	}
+	.userimg {
+	    text-align: center;
+	}
+	.common-h1 {
+	    font-size: 35px;
 	}
 	/*tabs*/
 	.tab-1 {
@@ -145,7 +177,7 @@
 	    margin-bottom: 20px;
 	}
 	.single-button {
-	    margin-top: 30px;
+	    margin-top: 50px;
 	}
 	.f-social-icon li i {
 		margin-left: 0;
@@ -167,7 +199,7 @@
 		width: 100%;
 	}
 	.test-middle{
-		margin: 0;
+		margin: 50px 0;
 	}
 
 
@@ -220,14 +252,11 @@
 	}
 
 	.test-middle {
-	    margin: 0 9.5%;
+	    margin: 0 68px;
 	}
 	/*social start*/
 	.social-icon{
 		width: 80%;
-	}
-	.test-middle{
-		margin: 0;
 	}
 
 	/*tab start*/
@@ -254,7 +283,9 @@
 /*Extra Large devices (desktops, 1200px and up)*/
 /*xl screen*/
 @media (min-width: 1200px) and (max-width: 1399.98px) { 
-
+	.f-social-icon li i {
+	    margin-left: 28px;
+	}
 }
 
 /*Extra Extra large devices (larger desktops, 1400px and up)*/
